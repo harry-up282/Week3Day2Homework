@@ -8,6 +8,21 @@ header {
   background: no-repeat lightgrey url(images/cliff_ocean.jpg);
   background-size: 1500px;
 }
+#timeofday {
+  width: 1500px;
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3a3a, #125688;
+  height: 50px;
+  /* background: rgb(34, 193, 195); */
+  background: linear-gradient(
+    0deg,
+    rgba(251, 215, 139, 1) 0%,
+    rgba(118, 213, 245, 1) 100%
+  );
+  text-align: center;
+}
+
 #activities header {
   background: no-repeat lightgrey url(images/runfly.jpg);
   background-size: 1500px;
@@ -33,6 +48,7 @@ header {
 .main-menu {
   margin-left: 227px;
   font-weight: 400;
+  /* margin-bottom: 200px; */
 }
 .main-menu ul li {
   list-style-type: none;
@@ -83,6 +99,7 @@ section #partners {
   margin: 0 auto;
   text-align: center;
 }
+
 section #partners .partner {
   display: inline-block;
   margin: 0 0.75em;
